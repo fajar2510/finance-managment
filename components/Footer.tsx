@@ -11,7 +11,6 @@ const Footer = ({ user, type = 'dekstop' }: FooterProps) => {
 
       if (loggedOut) router.push('/sign-in')
    }
-
    return (
       <footer className="footer">
          <div
